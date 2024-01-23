@@ -1,3 +1,33 @@
+```MD
+Project Root
+├── config.json               		# Configuration settings
+├── main.py                   		# Main Python script
+├── requirements.txt          		# Dependencies
+├── app                       		# Application source files
+│   ├── pysync.py
+│   ├── data
+│   │   ├── speakers_model.keras  	# Trained model
+│   │   ├── audio             		# Audio data
+│   │   └── noise             		# Noise data
+│   ├── src
+│   │   ├── data_processing.py  	# Data processing scripts
+│   │   ├── model.py          		# Model scripts
+│   │   └── preprocesses
+│   │       ├── audio.py      		# Audio processing
+│   │       ├── noise.py      		# Noise processing
+│   │       ├── test.py       		# Test scripts
+│   └── utils
+│       ├── audio_pre.py      		# Audio preprocessing
+│       ├── config.py         		# Configuration utils
+│       ├── file_ops.py       		# File operations
+│       ├── logger.py         		# Logging utility
+│       ├── utils.py          		# General utilities
+│       ├── validator.py      		# Validation scripts
+├── tests
+│   ├── test_main.py          		# Main test script
+│   └── test_utilities.py     		# Utilities test script
+└── visualizations            		# Visualization scripts and data
+```
 # PySync Speech Recognition
 
 PySync is a speech recognition project focused on processing and classifying audio speeches using deep learning. This project aims to provide an efficient way to recognize and classify different speakers from their speech patterns.
