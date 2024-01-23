@@ -20,7 +20,7 @@ PySync uses TensorFlow and Keras for building and training neural network models
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-github-username/pysync.git
+git clone https://github.com/gciftci/pysync.git
 ```
 
 ### Setting Up the Environment
