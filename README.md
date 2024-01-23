@@ -1,4 +1,3 @@
-cat << EOF > README.md
 # PySync Speech Recognition
 
 PySync is a speech recognition project focused on processing and classifying audio speeches using deep learning. This project aims to provide an efficient way to recognize and classify different speakers from their speech patterns.
