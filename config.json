@@ -1,0 +1,30 @@
+{
+    "environment": {
+        "keras_backend": "tensorflow",
+        "tf_cpp_min_log_level": 3
+    },
+    "model": {
+        "paths": {
+            "proj_dir": "",
+            "dataset_dir": "app/data",
+            "audio_dir": "audio",
+            "noise_dir": "noise"
+        },
+        "general": {
+            "valid_split": 0.1,
+            "shuffle_seed": 43,
+            "sampling_rate": 16000,
+            "scale": 0.5,
+            "batch_size": 128,
+            "epochs": 1,
+            "model_name": "speaker_model.keras"
+        },
+        "testing": {
+            "samples_to_display": 10
+        }
+    },
+    "logging": {
+        "level": "DEBUG",
+        "format": "%(asctime)s %(message)s"
+    }
+}
